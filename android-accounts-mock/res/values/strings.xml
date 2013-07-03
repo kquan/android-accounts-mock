@@ -1,5 +1,22 @@
 <resources>
 
-    <string name="app_name">android-accounts-mock</string>
+    <string name="app_name">accounts-mock</string>
 
+    <string name="activity_title_accounts">Current Mock Accounts</string>
+    <string name="accounts_create">Create a new mock account</string>
+    <string name="accounts_remove_title">Remove account</string>
+    <string name="accounts_remove_desc">Remove the account with name %1$s from this device?</string>
+    <string name="accounts_remove_status">Removing account: %1$s</string>
+    
+    <string name="activity_title_create_account">Create a New Mock Account</string>
+    
+    <string name="create_name">Username for account</string>
+    <string name="create_name_subtext">The username is typically an email address</string>
+    <string name="create_perform">Create it!</string>
+    <string name="create_error_no_name">You must specify a name for the account.</string>
+    <string name="create_error_duplicate_name">An account with that username already exists.</string>
+    <string name="create_error_general">An unknown error occurred while adding the account (check the logs).</string>
+    <string name="create_status">Adding account: %1$s</string>
+    
+    <string name="author_tagline">An idea by Kevin Quan</string>
 </resources>

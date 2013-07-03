@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/create_content_padding" >
+
+    <EditText
+        android:id="@+id/account_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="@string/create_name"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/account_name_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/account_name"
+        android:text="@string/create_name_subtext"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/account_name_subtext"
+        android:layout_marginTop="@dimen/create_section_separation"
+        android:onClick="onCreateAccount"
+        android:text="@string/create_perform" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/account_name_subtext"
+        android:layout_marginTop="@dimen/create_section_separation"
+        android:onClick="onCancel"
+        android:text="@android:string/cancel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:text="@string/author_tagline"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/tagline" />
+
+</RelativeLayout>
