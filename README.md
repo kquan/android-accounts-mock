@@ -14,7 +14,7 @@ You may also choose the build the project from scratch.
 
 Features
 --------
-- Add arbitrary accounts to an Android device using Android API 4 or higher (Android 1.6+)
+- Add arbitrary accounts to an Android device using Android API 5 or higher (Android 2.0+)
 - Add accounts through Android OS settings or through in-app UI
 - Remove an account after use
 
