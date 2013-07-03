@@ -8,7 +8,7 @@ Often times, accounts are used to pre-populate input or login fields.  By using 
 Download & Usage
 ----------------
 
-The easiest way is to download the latest release under the releases folder.
+The easiest way is to download the latest release under [releases](https://github.com/kquan/android-accounts-mock/releases).
 
 You may also choose the build the project from scratch.
 
